@@ -1,13 +1,13 @@
 package hello.hellospring.repository;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.util.List;
-
+import hello.hellospring.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import hello.hellospring.domain.Member;
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
 
 public class MemoryMemberRepositoryTest {
 	MemberRepository repository = new MemoryMemberRepository();
